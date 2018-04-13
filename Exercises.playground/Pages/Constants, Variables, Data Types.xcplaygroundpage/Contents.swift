@@ -5,25 +5,25 @@
  ## Learning Goals - Programming
  
  * Goal 1
-    * *Knowledge*
-        * I know the difference between a constant and a variable and when it is appropriate to use each.
+ * Knowledge
+ * I know the difference between a constant and a variable and when it is appropriate to use each.
  * Goal 2
-    * *Thinking*
-        * I know when to use different data types (integers, floating point, Boolean, strings, et cetera) and data structures and can explain why it is important to use the correct data type or structure.
+ * Thinking
+ * I know when to use different data types (integers, floating point, Boolean, strings, et cetera) and data structures and can explain why it is important to use the correct data type or structure.
  
  ## Learning Goals - Software Development
  
  * Goal 5
-    * *Thinking*
-        * I know the difference between syntax errors, logical errors, and run-time errors, can interpret error messages, and correct problems independently.
+ * Thinking
+ * I know the difference between syntax errors, logical errors, and run-time errors, can interpret error messages, and correct problems independently.
  * Goal 8
-    * *Communication*
-        * I can write human-readable programs (naming, indenting) with appropriate documentation (comments).
+ * Communication
+ * I can write human-readable programs (naming, indenting) with appropriate documentation (comments).
  
  * Goal 9
-    * *Communication*
-        * I can effectively use the file manager of my operating system (Finder) and source control tools (git, GitHub) to organize and back up my work.
-
+ * Communication
+ * I can effectively use the file manager of my operating system (Finder) and source control tools (git, GitHub) to organize and back up my work.
+ 
  ### Question 1
  
  Create and initialize a variable or constant (whatever is more appropriate) to represent each of these items:
@@ -36,6 +36,11 @@
  */
 // Answer Question 1 below
 
+let studentsName = "Diego"
+let studentLastName = "Santos"
+var currentGrade = "74"
+let novemberGrae = "90"
+
 /*:
  ### Question 2
  
@@ -47,6 +52,10 @@
  
  */
 // Answer Question 2 below
+let myAge : Int = 17
+let otherAge : Double = 40.0
+let averageAge : Double = ( Double(myAge) + otherAge ) / 2
+
 
 
 /*:
@@ -55,16 +64,19 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
+let personFavouriteHobby = "Tennis"
+
 
 
 /*:
  ### Question 4
  
- What are the advantages of using constants, which are *immutable*?
+ What are the advantages of using constants, which are immutable?
  
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
+print("never change")
 
 
 /*:
@@ -76,7 +88,7 @@
  
  */
 // Answer Question 5 below
-
+let randomDemand = 1_000_000
 /*:
  ### Question 6
  
@@ -96,12 +108,14 @@
  
  */
 // Answer Question 6 below
+var year = "2017"
+let diegoWriting = print("Hi my name is Diego Santos")
 
 
 /*:
  ### Question 7
  
- Swift is considered to be a *type-safe* language. What does this mean for programmers using the language?
+ Swift is considered to be a type-safe language. What does this mean for programmers using the language?
  
  Use multiple `print` statements below to explain.
  */
@@ -111,4 +125,3 @@
 
 
 //: [Next](@next)
-
