@@ -38,8 +38,8 @@
 
 let studentsName = "Diego"
 let studentLastName = "Santos"
-var currentGrade = "74"
-let novemberGrae = "90"
+var currentGrade = "86"
+let novemberGrae = "92"
 
 /*:
  ### Question 2

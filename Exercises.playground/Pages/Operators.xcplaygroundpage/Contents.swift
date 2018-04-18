@@ -43,7 +43,22 @@
  
  */
 // Answer Question 1 below
+// Answer Question 1 below
+var partTimeJobEarnings: Double = 0
+partTimeJobEarnings = 0+22.5/2
+print(partTimeJobEarnings)
 
+partTimeJobEarnings += 20
+print(partTimeJobEarnings)
+
+partTimeJobEarnings /= 2
+print(partTimeJobEarnings)
+
+partTimeJobEarnings += 25*4
+print(partTimeJobEarnings)
+
+partTimeJobEarnings -= 50
+print(partTimeJobEarnings)
 
 /*:
 ### Question 2
